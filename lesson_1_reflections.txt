@@ -20,3 +20,16 @@ Must put thought into saving at meaningful intervals
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
 Git is more coding-oriented and Google Doc is more intended for all files in general. In most cases outside of coding, it would not make sense to save multiple files in one commit
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log will show all of the commits for the set of files and git diff can be used to compare changes between two commits
+
+How might using version control make you more confident to make changes that could break something?
+
+As long as precautions were taken to save before attemping a risky change, there would not be any problem reverting to the old code if a problem is encountered
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Autonomous driving software
