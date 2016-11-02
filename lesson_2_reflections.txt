@@ -6,3 +6,29 @@ It creates a new hidden folder for storing data. It needs to be done in order to
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a place to put files into before making a commit, whereas the other two are not.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Just stage the logical changes at once and then commit the changes that do not go together separately
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If one wants to experiment with a new version of code that diverges from the current version and still keep the current version easily accessible
+
+
+How do the diagrams help you visualize the branch structure?
+
+It's easier to see where branches are located and what the parents of each commit are
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Code from both branches is compiled. It is represented that way because the commit has two parents.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Always merging manually allows the user to have full control and resolve any ambiguity manually
+Automatic merging may save time and be able to resolve simple conflicts but may not work to the authors' intents
